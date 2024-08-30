@@ -3,51 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Hoja de Vida</title>
-    <link rel="stylesheet" type="text/css" href="./styles.css"/>
-    <script scr="./scripts.js"></script>
+    <title>Hoja de Vida</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <img src="Foto.jpg" alt="Tu foto" id="foto">
-        <h1>David Villamizar</h1>
-    </header>
-
     <div class="container">
-        <section id="info-personal">
-            <h2>Información Personal</h2>
-            <p>Email: davidvilla042211@gmail.com</p>
-            <p>Teléfono: +573117423682</p>
-            <p>Ubicación: Duitama, Colombia</p>
-        </section>
+        <header>
+            <div class="header-bg">
+                <img src="foto.jpg" alt="Foto de Perfil" class="foto-perfil">
+                <h1>David Villamizar</h1>
+                <p>Teléfono: +57 3117423682 | Email: davidvilla042211@gmail.com <br> Colombia</p>
+            </div>
+        </header>
 
         <section id="objetivo">
             <h2>Objetivo Profesional</h2>
-            <p>Ser un experto en IA y manejo de nube</p>
+            <p>Ingeniero en tecnología con experiencia en soluciones basadas en la nube y desarrollo de inteligencia artificial, busco aportar mis habilidades en la implementación de arquitecturas escalables y automatización avanzada. Mi objetivo es impulsar la innovación en la transformación digital, utilizando IA para optimizar procesos y generar valor estratégico en un entorno colaborativo y orientado al futuro.</p>
         </section>
 
         <section id="experiencia">
             <h2>Experiencia Laboral</h2>
-            <ul id="lista-experiencia">
-                <!-- La experiencia laboral se añadirá aquí dinámicamente -->
-            </ul>
+            <div class="experiencia-item">
+                <h3>Analista de datos</h3>
+                <p>Data Masters | Enero/2024 - Julio/2024</p>
+                <p>Encargado de hacer analisis a distintas empresas de distintos rubros, para poder tomar decisiones teniendo en cuenta los datos</p>
+            </div>
+            <!-- Más experiencias laborales -->
         </section>
 
         <section id="educacion">
             <h2>Educación</h2>
-            <ul id="lista-educacion">
-                <!-- La educación se añadirá aquí dinámicamente -->
-            </ul>
+            <div class="educacion-item">
+                <h3>Ingenieria en sistemas</h3>
+                <p>UNAD | 2024</p>
+                <p>Ingeniero en sistemas con enfoque a la ciencia de datos</p>
+            </div>
+            <!-- Más educación -->
         </section>
     </div>
 
-    <script>
-
-        // Llamar a las funciones cuando se cargue la página
-        window.onload = function() {
-            añadirExperiencias();
-            añadirEducacion();
-        };
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

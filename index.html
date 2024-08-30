@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Hoja de Vida</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css"/>
+    <script scr="./scripts.js"></script>
+</head>
+<body>
+    <header>
+        <img src="Foto.jpg" alt="Tu foto" id="foto">
+        <h1>David Villamizar</h1>
+    </header>
+
+    <div class="container">
+        <section id="info-personal">
+            <h2>Información Personal</h2>
+            <p>Email: davidvilla042211@gmail.com</p>
+            <p>Teléfono: +573117423682</p>
+            <p>Ubicación: Duitama, Colombia</p>
+        </section>
+
+        <section id="objetivo">
+            <h2>Objetivo Profesional</h2>
+            <p>Ser un experto en IA y manejo de nube</p>
+        </section>
+
+        <section id="experiencia">
+            <h2>Experiencia Laboral</h2>
+            <ul id="lista-experiencia">
+                <!-- La experiencia laboral se añadirá aquí dinámicamente -->
+            </ul>
+        </section>
+
+        <section id="educacion">
+            <h2>Educación</h2>
+            <ul id="lista-educacion">
+                <!-- La educación se añadirá aquí dinámicamente -->
+            </ul>
+        </section>
+    </div>
+
+    <script>
+
+        // Llamar a las funciones cuando se cargue la página
+        window.onload = function() {
+            añadirExperiencias();
+            añadirEducacion();
+        };
+    </script>
+</body>
+</html>

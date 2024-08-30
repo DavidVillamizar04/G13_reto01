@@ -1,12 +1,9 @@
 // Datos de ejemplo
 const experiencias = [
-    { puesto: "Desarrollador Web", empresa: "Empresa A", periodo: "2020 - Presente", descripcion: "Desarrollo de aplicaciones web utilizando HTML, CSS y JavaScript." },
-    { puesto: "Diseñador UX", empresa: "Empresa B", periodo: "2018 - 2020", descripcion: "Diseño de interfaces de usuario y experiencia de usuario para aplicaciones móviles." }
-];
+    { puesto: "Analista de datos", empresa: "Data Masters", periodo: "2020 - 2021", descripcion: "Analisis y desarrollo de soluciones desde los datos de distintas empresas." }];
 
 const educacion = [
-    { titulo: "Grado en Ingeniería Informática", institucion: "Universidad XYZ", año: "2018" },
-    { titulo: "Máster en Desarrollo Web", institucion: "Instituto ABC", año: "2020" }
+    { titulo: "Ingenieria de sistemas", institucion: "UNAD", año: "2023" },
 ];
 
 // Función para añadir experiencias
